@@ -15,6 +15,7 @@ const Toggle1 = (y, x) => {
 const Toggle2 = (y, x) => {
   console.log("open");
   y.style.display = "block";
+  y.style.animation = "fade-in 1s ease-in";
   x[0].style.transform = "rotate(-45deg) translate(-5px,6px)";
   x[0].style.transition = "transform 0.4s ease-in";
   x[1].style.opacity = "0";
@@ -53,9 +54,7 @@ const Navbar = () => (
       <div
         className="sm:hidden py-4 px-8 cursor-pointer"
         id="nav_parent"
-        onClick={() => {
-          handleClick();
-        }}
+        onClick={handleClick}
       >
         <div id="div1" className="h-1 w-6 m-1 bg-gray-300"></div>
         <div id="div2" className="h-1 w-6 m-1 bg-gray-300"></div>
