@@ -3,7 +3,6 @@ import React from 'react';
 import './Navbar.style.css';
 
 function Toggle1(a,b){
-    console.log('Working');
     a.style.display = 'block';
     b[0].style.transform = 'rotate(-45deg) translate(-5px,6px)';
     b[0].style.transition = 'transform 0.4s ease-in';
@@ -14,7 +13,6 @@ function Toggle1(a,b){
     isOpen = true;
 }
 function Toggle2(a,b){
-    console.log('Working');
     a.style.display = 'none';
     b[0].style.transform = 'none';
     b[1].style.opacity = '100';
