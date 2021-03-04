@@ -38,16 +38,16 @@ const Navbar = () => (
         Navbar
       </div>
       <div className="hidden sm:flex text-lg py-3" id="lol">
-        <a className="px-4 md:px-8 lg:px-10 hover:text-red-500" href="#">
+        <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500" href="#">
           Home
         </a>
-        <a className="px-4 md:px-8 lg:px-10 hover:text-red-500" href="#">
+        <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500" href="#">
           Features
         </a>
-        <a className="px-4 md:px-8 lg:px-10 hover:text-red-500" href="#">
+        <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500" href="#">
           About
         </a>
-        <a className="px-4 md:px-8 lg:px-10 hover:text-red-500" href="#">
+        <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500" href="#">
           Contact
         </a>
       </div>
@@ -65,16 +65,16 @@ const Navbar = () => (
       className="hidden sm:hidden bg-gray-900 text-gray-300 text-lg py-3"
       id="drop-down"
     >
-      <a className="px-4 md:px-8 lg:px-10 hover:text-red-500 block" href="#">
+      <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500 block" href="#">
         Home
       </a>
-      <a className="px-4 md:px-8 lg:px-10 hover:text-red-500 block" href="#">
+      <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500 block" href="#">
         Feature
       </a>
-      <a className="px-4 md:px-8 lg:px-10 hover:text-red-500 block" href="#">
+      <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500 block" href="#">
         About
       </a>
-      <a className="px-4 md:px-8 lg:px-10 hover:text-red-500 block" href="#">
+      <a className="px-4 md:px-8 lg:px-10 hover:text-blue-500 block" href="#">
         Contact
       </a>
     </div>
